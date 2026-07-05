@@ -1,0 +1,109 @@
+{
+  "genel": {
+    "yukle": "Yükleniyor...",
+    "hata": "Bir hata oluştu",
+    "tekrarDene": "Tekrar Dene",
+    "iptal": "İptal",
+    "tamam": "Tamam",
+    "kaydet": "Kaydet",
+    "sil": "Sil",
+    "duzenle": "Düzenle",
+    "geri": "Geri",
+    "ara": "Ara",
+    "filtrele": "Filtrele",
+    "temizle": "Temizle"
+  },
+  "nav": {
+    "anasayfa": "Anasayfa",
+    "sepet": "Sepet",
+    "siparisler": "Siparişler",
+    "profil": "Profil"
+  },
+  "urun": {
+    "sepeteEkle": "Sepete Ekle",
+    "stokYok": "Stokta Yok",
+    "indirim": "%{{yuzde}} İndirim",
+    "stokAdet": "{{adet}} adet kaldı",
+    "ozellikler": "Özellikler",
+    "yorumlar": "Yorumlar",
+    "puan": "{{deger}} / 5",
+    "yorumYok": "Henüz yorum yapılmamış",
+    "paylas": "Paylaş",
+    "favoriyeEkle": "Favorilere Ekle",
+    "favoriyeCikar": "Favorilerden Çıkar"
+  },
+  "sepet": {
+    "baslik": "Sepetim",
+    "bos": "Sepetiniz boş",
+    "bosAlt": "Ürün eklemek için alışverişe başlayın",
+    "alisveriseyDevam": "Alışverişe Devam",
+    "toplamTutar": "Toplam Tutar",
+    "odemeYap": "Ödeme Yap",
+    "urunCikar": "Sepetten Çıkar",
+    "adetArttir": "Adedi artır",
+    "adetAzalt": "Adedi azalt",
+    "kargoBedeli": "Kargo Bedeli",
+    "bedavaKargo": "Ücretsiz Kargo"
+  },
+  "auth": {
+    "giris": "Giriş Yap",
+    "cikis": "Çıkış Yap",
+    "kayit": "Kayıt Ol",
+    "email": "E-posta",
+    "sifre": "Şifre",
+    "sifreTekrar": "Şifre Tekrar",
+    "ad": "Ad",
+    "soyad": "Soyad",
+    "girisYap": "Giriş Yap",
+    "kayitOl": "Kayıt Ol",
+    "hesabinYokMu": "Hesabın yok mu?",
+    "hesabinVarMi": "Zaten hesabın var mı?",
+    "sifremiUnuttum": "Şifremi Unuttum",
+    "girisBasarili": "Giriş başarılı",
+    "cikisBasarili": "Çıkış yapıldı"
+  },
+  "profil": {
+    "baslik": "Profil",
+    "fotoDegistir": "Fotoğraf Değiştir",
+    "kisiselBilgiler": "Kişisel Bilgiler",
+    "tema": "Tema",
+    "dil": "Dil",
+    "bildirimler": "Bildirimler",
+    "hakkinda": "Hakkında",
+    "acik": "Açık",
+    "koyu": "Koyu",
+    "sistem": "Sistem",
+    "turkce": "Türkçe",
+    "ingilizce": "İngilizce",
+    "arapca": "Arapça",
+    "rtlYenidenBaslatma": "Yön değişikliği için uygulama yeniden başlatılacak."
+  },
+  "siparis": {
+    "baslik": "Siparişlerim",
+    "bos": "Henüz siparişiniz yok",
+    "detay": "Sipariş Detayı",
+    "numarasi": "Sipariş #{{id}}",
+    "tarihi": "Tarih: {{tarih}}",
+    "durumu": "Durum",
+    "toplam": "Toplam: {{tutar}}",
+    "takipEt": "Kargo Takip"
+  },
+  "hata": {
+    "internet": "İnternet bağlantısı yok",
+    "internetAlt": "Önbellek görüntüleniyor",
+    "sunucu": "Sunucu hatası, lütfen tekrar deneyin",
+    "yetkisiz": "Oturum süreniz doldu, lütfen tekrar giriş yapın",
+    "bulunamadi": "Sayfa bulunamadı"
+  },
+  "onboarding": {
+    "adim1Baslik": "Binlerce Ürün",
+    "adim1Aciklama": "Elektronikten giyime, kitaptan spora binlerce ürün tek bir yerde.",
+    "adim2Baslik": "Hızlı Teslimat",
+    "adim2Aciklama": "Siparişleriniz en hızlı şekilde kapınıza teslim edilir.",
+    "adim3Baslik": "Güvenli Ödeme",
+    "adim3Aciklama": "Kredi kartı, kapıda ödeme ve daha fazla seçenekle güvenli alışveriş.",
+    "baslayalim": "Başlayalım",
+    "atla": "Atla",
+    "sonraki": "Sonraki"
+  }
+}

@@ -1,0 +1,32 @@
+# Gün 52 — Fastlane
+#
+# NOT: ShopApp Expo Managed Workflow kullanıyor (native ios/ ve android/ klasörleri
+# yok, EAS Build ile derleniyor — bkz. eas.json). Fastlane native proje dosyaları
+# üzerinde çalışır; bu lane'leri çalıştırmadan önce `npx expo prebuild` ile native
+# projeleri üretmen gerekir. Bare Workflow'a geçildiğinde veya native kod üzerinde
+# tam kontrol gerektiğinde EAS Build'e alternatif/tamamlayıcı olarak kullanılır.
+
+default_platform(:ios)
+
+platform :ios do
+  desc "TestFlight'a gönder"
+  lane :beta do
+    match(type: "appstore")
+    gym(scheme: "ShopApp", configuration: "Release")
+    pilot(skip_waiting_for_build_processing: true)
+  end
+
+  desc "Sadece build al"
+  lane :build_only do
+    match(type: "appstore")
+    gym(scheme: "ShopApp", configuration: "Release")
+  end
+end
+
+platform :android do
+  desc "Play Store'a gönder"
+  lane :deploy do
+    gradle(task: "bundle", build_type: "Release")
+    supply(track: "internal")
+  end
+end

@@ -1,0 +1,7 @@
+# Gün 52 — Maestro E2E: özel şema (Gün 32) ile doğrudan ürün detayına açılma
+appId: com.sirketadi.shopapp
+---
+- launchApp
+- openLink: "shopapp://urun/1"
+- assertVisible: "iPhone 15 Pro"
+- assertVisible: "Sepete Ekle"

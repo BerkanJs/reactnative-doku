@@ -1,0 +1,37 @@
+name: EAS Build
+
+on:
+  push:
+    branches: [main, develop]
+
+jobs:
+  build:
+    name: EAS Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - run: npm ci
+
+      # Expo'nun resmi GitHub Action'ı — EAS CLI'ı kurar ve EXPO_TOKEN ile authenticate eder
+      - name: Expo Kurulum
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+
+      # main → production profili (App Store/Play Store binary)
+      # develop → preview profili (QA ekibine internal dağıtım)
+      - name: EAS Build
+        run: |
+          if [ "${{ github.ref }}" = "refs/heads/main" ]; then
+            eas build --platform all --profile production --non-interactive --no-wait
+          else
+            eas build --platform all --profile preview --non-interactive --no-wait
+          fi

@@ -1,0 +1,109 @@
+{
+  "genel": {
+    "yukle": "جارٍ التحميل...",
+    "hata": "حدث خطأ ما",
+    "tekrarDene": "أعد المحاولة",
+    "iptal": "إلغاء",
+    "tamam": "حسناً",
+    "kaydet": "حفظ",
+    "sil": "حذف",
+    "duzenle": "تعديل",
+    "geri": "رجوع",
+    "ara": "بحث",
+    "filtrele": "تصفية",
+    "temizle": "مسح"
+  },
+  "nav": {
+    "anasayfa": "الرئيسية",
+    "sepet": "السلة",
+    "siparisler": "الطلبات",
+    "profil": "الملف الشخصي"
+  },
+  "urun": {
+    "sepeteEkle": "أضف إلى السلة",
+    "stokYok": "غير متوفر",
+    "indirim": "خصم {{yuzde}}٪",
+    "stokAdet": "تبقّى {{adet}} قطعة",
+    "ozellikler": "المواصفات",
+    "yorumlar": "التقييمات",
+    "puan": "{{deger}} / 5",
+    "yorumYok": "لا توجد تقييمات بعد",
+    "paylas": "مشاركة",
+    "favoriyeEkle": "أضف إلى المفضلة",
+    "favoriyeCikar": "إزالة من المفضلة"
+  },
+  "sepet": {
+    "baslik": "سلتي",
+    "bos": "سلتك فارغة",
+    "bosAlt": "ابدأ التسوق لإضافة منتجات",
+    "alisveriseyDevam": "متابعة التسوق",
+    "toplamTutar": "الإجمالي",
+    "odemeYap": "الدفع",
+    "urunCikar": "إزالة من السلة",
+    "adetArttir": "زيادة الكمية",
+    "adetAzalt": "إنقاص الكمية",
+    "kargoBedeli": "الشحن",
+    "bedavaKargo": "شحن مجاني"
+  },
+  "auth": {
+    "giris": "تسجيل الدخول",
+    "cikis": "تسجيل الخروج",
+    "kayit": "إنشاء حساب",
+    "email": "البريد الإلكتروني",
+    "sifre": "كلمة المرور",
+    "sifreTekrar": "تأكيد كلمة المرور",
+    "ad": "الاسم",
+    "soyad": "اللقب",
+    "girisYap": "تسجيل الدخول",
+    "kayitOl": "إنشاء حساب",
+    "hesabinYokMu": "ليس لديك حساب؟",
+    "hesabinVarMi": "لديك حساب بالفعل؟",
+    "sifremiUnuttum": "نسيت كلمة المرور؟",
+    "girisBasarili": "تم تسجيل الدخول بنجاح",
+    "cikisBasarili": "تم تسجيل الخروج بنجاح"
+  },
+  "profil": {
+    "baslik": "الملف الشخصي",
+    "fotoDegistir": "تغيير الصورة",
+    "kisiselBilgiler": "المعلومات الشخصية",
+    "tema": "المظهر",
+    "dil": "اللغة",
+    "bildirimler": "الإشعارات",
+    "hakkinda": "حول",
+    "acik": "فاتح",
+    "koyu": "داكن",
+    "sistem": "النظام",
+    "turkce": "التركية",
+    "ingilizce": "الإنجليزية",
+    "arapca": "العربية",
+    "rtlYenidenBaslatma": "سيتم إعادة تشغيل التطبيق لتطبيق تغيير اتجاه الواجهة."
+  },
+  "siparis": {
+    "baslik": "طلباتي",
+    "bos": "لا توجد طلبات بعد",
+    "detay": "تفاصيل الطلب",
+    "numarasi": "الطلب #{{id}}",
+    "tarihi": "التاريخ: {{tarih}}",
+    "durumu": "الحالة",
+    "toplam": "الإجمالي: {{tutar}}",
+    "takipEt": "تتبع الشحنة"
+  },
+  "hata": {
+    "internet": "لا يوجد اتصال بالإنترنت",
+    "internetAlt": "يتم عرض المحتوى المخزّن مؤقتاً",
+    "sunucu": "خطأ في الخادم، يرجى المحاولة مرة أخرى",
+    "yetkisiz": "انتهت الجلسة، يرجى تسجيل الدخول مرة أخرى",
+    "bulunamadi": "الصفحة غير موجودة"
+  },
+  "onboarding": {
+    "adim1Baslik": "آلاف المنتجات",
+    "adim1Aciklama": "من الإلكترونيات إلى الملابس والكتب والرياضة — كل شيء في مكان واحد.",
+    "adim2Baslik": "توصيل سريع",
+    "adim2Aciklama": "تُسلَّم طلباتك إلى بابك بأسرع وقت ممكن.",
+    "adim3Baslik": "دفع آمن",
+    "adim3Aciklama": "تسوّق بأمان عبر البطاقة الائتمانية أو الدفع عند الاستلام وخيارات أخرى.",
+    "baslayalim": "لنبدأ",
+    "atla": "تخطّي",
+    "sonraki": "التالي"
+  }
+}

@@ -1,0 +1,17 @@
+# Gün 52 — Maestro E2E: anasayfadan ürünü sepete ekle, sepette göründüğünü doğrula
+appId: com.sirketadi.shopapp
+---
+- launchApp
+- runFlow: helpers/anasayfayi_bekle.yaml
+
+# Ürün kartındaki hızlı "Sepete Ekle" butonuna dokun (ProductCard'daki accessibilityLabel)
+- tapOn: "iPhone 15 Pro sepete ekle"
+
+# Sepet tab'ındaki adet rozeti güncellenmeli (tabs/_layout.tsx — SepetIkonu)
+- assertVisible: "1 ürün sepette"
+
+# Sepet sekmesine geç
+- tapOn: "Sepet"
+
+# Eklenen ürün sepette görünmeli
+- assertVisible: "iPhone 15 Pro"

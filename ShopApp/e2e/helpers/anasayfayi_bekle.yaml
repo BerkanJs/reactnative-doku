@@ -1,0 +1,4 @@
+# Gün 52 — Maestro: ortak adım — anasayfanın ürün listesi yüklenene kadar bekle
+# runFlow ile diğer flow'lardan çağrılır, tekrar yazılmaz
+- assertVisible: "Anasayfa"
+- assertVisible: "iPhone 15 Pro"

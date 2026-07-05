@@ -1,0 +1,109 @@
+{
+  "genel": {
+    "yukle": "Loading...",
+    "hata": "An error occurred",
+    "tekrarDene": "Try Again",
+    "iptal": "Cancel",
+    "tamam": "OK",
+    "kaydet": "Save",
+    "sil": "Delete",
+    "duzenle": "Edit",
+    "geri": "Back",
+    "ara": "Search",
+    "filtrele": "Filter",
+    "temizle": "Clear"
+  },
+  "nav": {
+    "anasayfa": "Home",
+    "sepet": "Cart",
+    "siparisler": "Orders",
+    "profil": "Profile"
+  },
+  "urun": {
+    "sepeteEkle": "Add to Cart",
+    "stokYok": "Out of Stock",
+    "indirim": "{{yuzde}}% Off",
+    "stokAdet": "{{adet}} left in stock",
+    "ozellikler": "Specifications",
+    "yorumlar": "Reviews",
+    "puan": "{{deger}} / 5",
+    "yorumYok": "No reviews yet",
+    "paylas": "Share",
+    "favoriyeEkle": "Add to Favorites",
+    "favoriyeCikar": "Remove from Favorites"
+  },
+  "sepet": {
+    "baslik": "My Cart",
+    "bos": "Your cart is empty",
+    "bosAlt": "Start shopping to add items",
+    "alisveriseyDevam": "Continue Shopping",
+    "toplamTutar": "Total",
+    "odemeYap": "Checkout",
+    "urunCikar": "Remove from Cart",
+    "adetArttir": "Increase quantity",
+    "adetAzalt": "Decrease quantity",
+    "kargoBedeli": "Shipping",
+    "bedavaKargo": "Free Shipping"
+  },
+  "auth": {
+    "giris": "Sign In",
+    "cikis": "Sign Out",
+    "kayit": "Sign Up",
+    "email": "Email",
+    "sifre": "Password",
+    "sifreTekrar": "Confirm Password",
+    "ad": "First Name",
+    "soyad": "Last Name",
+    "girisYap": "Sign In",
+    "kayitOl": "Create Account",
+    "hesabinYokMu": "Don't have an account?",
+    "hesabinVarMi": "Already have an account?",
+    "sifremiUnuttum": "Forgot Password?",
+    "girisBasarili": "Successfully signed in",
+    "cikisBasarili": "Successfully signed out"
+  },
+  "profil": {
+    "baslik": "Profile",
+    "fotoDegistir": "Change Photo",
+    "kisiselBilgiler": "Personal Info",
+    "tema": "Theme",
+    "dil": "Language",
+    "bildirimler": "Notifications",
+    "hakkinda": "About",
+    "acik": "Light",
+    "koyu": "Dark",
+    "sistem": "System",
+    "turkce": "Turkish",
+    "ingilizce": "English",
+    "arapca": "Arabic",
+    "rtlYenidenBaslatma": "The app will restart to apply the layout direction change."
+  },
+  "siparis": {
+    "baslik": "My Orders",
+    "bos": "No orders yet",
+    "detay": "Order Detail",
+    "numarasi": "Order #{{id}}",
+    "tarihi": "Date: {{tarih}}",
+    "durumu": "Status",
+    "toplam": "Total: {{tutar}}",
+    "takipEt": "Track Shipment"
+  },
+  "hata": {
+    "internet": "No internet connection",
+    "internetAlt": "Showing cached content",
+    "sunucu": "Server error, please try again",
+    "yetkisiz": "Session expired, please sign in again",
+    "bulunamadi": "Page not found"
+  },
+  "onboarding": {
+    "adim1Baslik": "Thousands of Products",
+    "adim1Aciklama": "From electronics to clothing, books to sports — everything in one place.",
+    "adim2Baslik": "Fast Delivery",
+    "adim2Aciklama": "Your orders delivered to your door as quickly as possible.",
+    "adim3Baslik": "Secure Payment",
+    "adim3Aciklama": "Shop safely with credit card, cash on delivery, and more options.",
+    "baslayalim": "Get Started",
+    "atla": "Skip",
+    "sonraki": "Next"
+  }
+}
